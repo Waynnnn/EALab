@@ -12,13 +12,16 @@ a {
 
 #nav {
   background-color: none;
-  width: 450px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 2px;
 }
 
 #nav li {
-  padding-bottom: 30px;
+  padding-left:38px;
+  padding-right: 38px;
+  display: inline;
 }
 
 #container {
@@ -32,7 +35,7 @@ a {
 }
 
 #header {
-  background-color: #A5ED39;
+  background-color: #DDBB35;
   color: black;
   text-align: center;
   padding: 0;
@@ -46,11 +49,12 @@ a {
 
 #nav {
   width: 800px;
-  color: white;
+  color: none;
   margin-left: auto;
-  text-align: center;
+  text-align:center;
   font-weight: none;
-  padding: 0;
+  padding top:1px;
+  padding-bottom: 10px;
 }
 
 #nav ul {
@@ -58,17 +62,21 @@ a {
   padding: 0;
 }
 
-#nav.selected {
+#nav {
   font-weight: bold;
-
+  font-style: italic;
 }
 
 
 #main {
-  width: 650px;
-  color: white;
-  text-align: left;
+  width: 800px;
+  color: black;
+  text-align:center;
+  background-color: #DDBB35;
+  padding-top: 1px;
+  padding-bottom: 30px;
 }
+
 
 #footer {
   clear: both;
@@ -119,4 +127,20 @@ a {
 
 .btn1:hover::before{
   height: 180%;
+}
+
+
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("trees sunlight-leaves-forest-branches.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
